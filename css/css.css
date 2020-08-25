@@ -1,90 +1,94 @@
-*{
-	
+* {
+
 	margin: 0;
 	padding: 0;
 }
-header{
-	
+
+header {
+
 	width: 100%;
 	height: 60px;
-	background-color:#e74c3c;
-	
+	background-color: #5595D5;
+
 }
-.logo{
-width: 48px;
+
+.logo {
+	width: 48px;
 	height: 48px;
 	margin-top: 5px;
 	margin-left: 50px;
 	float: left;
 	cursor: pointer;
 }
-.nav{
-float: left;
+
+.nav {
+	float: left;
 	width: 500px;
-	
-margin-left: 50px;
-list-style: none;
-margin-top: 10px;
+
+	margin-left: 50px;
+	list-style: none;
+	margin-top: 10px;
 }
 
 .bt {
-float: left;
-margin-right:30px;
-padding: 10px;
-color: aliceblue;
-font-size: 17px;	
-text-decoration: none;
-font-weight: 400;
-font-family: sans-serif;
+	float: left;
+	margin-right: 30px;
+	padding: 10px;
+	color: aliceblue;
+	font-size: 17px;
+	text-decoration: none;
+	font-weight: 400;
+	font-family: sans-serif;
 
 }
 
-.bt:hover{
-	
+.bt:hover {
+
 	color: white;
-	background-color: rgba(197,61,51,0.5);
+	background-color: rgba(65, 119, 173, 0.5);
 }
 
 
-.mas{
-	
-display: flex;
+.mas {
+
+	display: flex;
 	flex-direction: column;
 }
 
-.bt4{
-	
-}
-.botones4{
-	
+.bt4 {}
+
+.botones4 {
+
 	list-style: none;
 	display: none;
-	
+
 }
 
-.mostrar{
+.mostrar {
 	display: block;
 }
 
-.mas:hover{
-background-color: rgba(231,76,60,1);
+.mas:hover {
+	background-color: rgba(65, 119, 173, 1);
 }
-.botones4 a{
+
+.botones4 a {
 	text-decoration: none;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-.botones4 a li{
-	
-	
+.botones4 a li {
+
+
 	padding-bottom: 20px;
 	padding-top: 20px;
 	padding-left: 30px;
 	color: white;
-	
+
 }
-.botones4 a li:hover{
-	background-color: brown;
-	
+
+.botones4 a li:hover {
+	background-color: #325D89;
+
 }
